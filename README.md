@@ -19,7 +19,7 @@ Wanderlust is a full-stack listing website that allows users to create, manage, 
 
 ## Tech Stack
 
-- **Frontend:** Ejs Templates
+- **Frontend:** Css, Js, Ejs Templates
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Deployment:** Render ([Live Link](https://wanderlust-listings-f6oy.onrender.com/listings))
