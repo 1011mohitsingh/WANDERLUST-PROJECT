@@ -38,8 +38,11 @@ Follow these steps to run the project on your local machine:
 ```bash
 git clone https://github.com/your-username/wanderlust.git
 cd wanderlust
+
+### 2. Install Dependencies
 npm install
 
+### 3. Configure Environment Variables
 you have to crate your own env file with the following content:
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_cloudinary_api_key
@@ -48,7 +51,8 @@ MAPBOX_TOKEN=your_mapbox_token
 DB_URL=mongodb://localhost:27017/wanderlust
 SECRET=session_secret
 
-npm start
+### 4. Start the Server
+nodemon app.js
 
 
 
