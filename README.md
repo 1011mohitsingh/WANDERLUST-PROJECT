@@ -1,9 +1,22 @@
-# 🌍 Wanderlust  
+# ✈️ Wanderlust  
 
-🔗 **Live Demo:** [Wanderlust on Render](https://wanderlust-listings-f6oy.onrender.com/listings)  
+Check out the live application deployed on Render:
+👉 **[View Deployed Site](https://wanderlust-listings-f6oy.onrender.com/listings)**
 
 Wanderlust is a full-stack web application inspired by Airbnb, built using the **MERN stack**.  
 It allows users to explore, create, and review travel destinations (listings) with authentication, authorization, and seamless UI/UX.  
+
+---
+
+## 📸 Screenshots
+Home-Wanderlust (Image)
+<img width="1902" height="967" alt="Image" src="https://github.com/user-attachments/assets/305a222a-f325-4ec4-868b-1b6e431c39b4" />
+
+Listing-Wanderlust (Image)
+<img width="1898" height="872" alt="Image" src="https://github.com/user-attachments/assets/a6b9a62c-d5f8-4831-8910-b8ab5f87fbde" />
+
+Edit-Listing-Wanderlust (Image)
+<img width="1915" height="869" alt="Image" src="https://github.com/user-attachments/assets/405d38ce-0126-4999-a21a-620842df269e" />
 
 ---
 
@@ -34,25 +47,27 @@ It allows users to explore, create, and review travel destinations (listings) wi
 
 ## 🛠 Tech Stack  
 
-**Frontend**  
-- HTML, CSS, JavaScript  
-- Bootstrap  
-- EJS (templating)  
+**Frontend:**
+* HTML5, CSS3
+* JavaScript (ES6+)
+* EJS (Embedded JavaScript Templates)
+* Bootstrap 5
 
-**Backend**  
-- Node.js, Express.js  
+**Backend:**
+* Node.js
+* Express.js
 
 **Database**  
-- MongoDB, Mongoose  
+* MongoDB, Mongoose
 
-**Other Tools & APIs**  
-- Passport.js (Authentication)  
-- Cloudinary & Multer (Image Uploads)  
-- Mapbox API (Maps & Geolocation)  
-
+**Services & APIs:**
+* Mapbox API (Geocoding & Maps)
+* Cloudinary
+* Render(Deployment)
+  
 ---
 
-## ⚙️ Installation  
+## ⚙️ **Installation**
 
 1. **Clone the repository**  
    ```bash
@@ -63,7 +78,7 @@ It allows users to explore, create, and review travel destinations (listings) wi
    ```bash
    npm install
    
-3. Set up environment variables
+3. **Set up environment variables**
 Create a .env file in the root directory with the following:
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_cloud_key
@@ -72,15 +87,14 @@ MAPBOX_TOKEN=your_mapbox_token
 MONGO_URL=mongodb://127.0.0.1:27017/wanderlust
 SECRET=your_session_secret
 
-4. Run the application
+4. **Run the application**
 node app.js
 OR using nodemon (if installed):
 nodemon app.js
 
+5. **Visit the App**
+   Open your browser and go to: `http://localhost:8080/listings`
+
 🤝 Contributing
 Contributions are welcome! Feel free to fork this repo, make changes, and submit a pull request.
-
-📜 License
-This project is licensed under the MIT License.
-
-
+Created by **MOHIT SINGH**
