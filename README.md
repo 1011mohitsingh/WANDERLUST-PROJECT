@@ -95,6 +95,8 @@ nodemon app.js
 5. **Visit the App**
    Open your browser and go to: `http://localhost:8080/listings`
 
+---
+
 🤝 Contributing
 Contributions are welcome! Feel free to fork this repo, make changes, and submit a pull request.
-Created by **MOHIT SINGH**
+- Created by **MOHIT SINGH**
